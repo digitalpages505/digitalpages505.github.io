@@ -1,0 +1,101 @@
+/* Fondo general */
+body {
+    background-image: url('imgs/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    zoom: 90%;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 2px solid #8B0000;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h1, h2 {
+    color: white;
+}
+
+/* Texto */
+p {
+    text-align: justify;
+    line-height: 1.6;
+    color: white;
+}
+
+/* Links */
+a {
+    color: rgb(255, 140, 0);
+    text-decoration: none;
+}
+
+i {
+    color: rgb(255, 140, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+/* Imágenes */
+img {
+    border: 2px solid #8B0000;
+    border-radius: 5px;
+    width: 200px;
+
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    color:  white;
+}
+
+li {
+    color: #8B0000;
+}
+
+/* Separadores */
+hr {
+    border: 1px solid #8B0000;
+}
+
+@media (max-width: 768px) {
+    table, .contenedor {
+        width: 95%;
+    }
+}
+
+.text-right {
+    text-align: right;
+}
+.imagen {
+    width: 200px;
+    margin: 15px;
+    float: left;
+    text-align: center;
+}
+
+.imagend{
+    width: 200px;
+    margin: 15px;
+    float: right;
+    text-align: center;
+}
+
+
+.caption {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 5px;
+}
